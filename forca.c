@@ -168,7 +168,7 @@ void testerro (int *tam, int *erros, char *dados, char *secret, char *letra)
 //checa a condição de vitória
 int win(char *dados, char *secret, int *tam, int *cd)
 {
-	int i, c;
+	int i, c=0;
 	
 	for(i=0; i<(*tam); i++)
 		if(secret[i]==dados[i])
